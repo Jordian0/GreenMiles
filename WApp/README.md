@@ -82,11 +82,12 @@ Run the Flask application and use any REST client (e.g., Postman) or the fronten
 ## Endpoints
 
 
-| Endpoint     | Method | Description                                                                                       | Sample Response                                                                                                                                                            |
-|--------------|--------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `/score`     | `GET`  | Returns the overall eco-driving score for the entire trip.                                        | `{ "trip_score": 85.7 }`                                                                                                                                                   |
-| `/feedback`  | `GET`  | Provides real-time feedback based on driving metrics, advancing 10 rows per request.              | `{ "warnings": ["High RPM: Reduce speed for better efficiency.", "Moderate Engine Load: Avoid aggressive driving."] }`                                                    |
-| `/metrics`   | `GET`  | Streams essential driving data one row at a time, simulating real-time data flow.                 | `{ "gps_speed": 75.0, "eLoad": 65.3, "rpm": 1800, "tPos": 45, "iat": 20, "kpl": 8.2 }`                                                                                    |
+| Endpoint     | Method | Description                                                                                       | Sample Response                                                                                                                                                                   |
+|--------------|--------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/score`     | `GET`  | Returns the overall eco-driving score for the entire trip.                                        | `{ "trip_score": 85.7 }` <br><br>![Score Endpoint](images/endpoint-score.png)                                                                                                     |
+| `/feedback`  | `GET`  | Provides real-time feedback based on driving metrics, advancing 10 rows per request.              | `{ "warnings": ["High RPM: Reduce speed for better efficiency.", "Moderate Engine Load: Avoid aggressive driving."] }` <br><br>![Feedback Endpoint](images/endpoint-feedback.png) |
+| `/metrics`   | `GET`  | Streams essential driving data one row at a time, simulating real-time data flow.                 | `{ "gps_speed": 75.0, "eLoad": 65.3, "rpm": 1800, "tPos": 45, "iat": 20, "kpl": 8.2 }` <br><br>![Metrics Endpoint](images/endpoint-metrics.png)                                   |
+
 
 ---
 

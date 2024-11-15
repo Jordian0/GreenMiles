@@ -6,7 +6,7 @@ const Speedometer =  ({ speed }) => {
 
   useEffect(() => {
     if (meterBarRef.current) {
-     const validSpeed = Math.max(0, Math.min(180, speed));
+      const validSpeed = Math.max(20, Math.min(180, speed));
       const strokeDashoffset = ((180 - validSpeed) / 180) * 690; 
       meterBarRef.current.style.strokeDashoffset = strokeDashoffset;
     }
