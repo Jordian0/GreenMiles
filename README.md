@@ -20,7 +20,6 @@ An AI-powered application designed to provide real-time feedback and eco-driving
       - [2. Frontend Setup (React)](#2-frontend-setup-react)
       - [3. Running the Simulation](#3-running-the-simulation)
   - [📈 Eco-Driving Score Calculation](#-eco-driving-score-calculation)
-  - [🌟 Example Use Case](#-example-use-case)
   - [📊 Future Enhancements](#-future-enhancements)
 
 
