@@ -68,6 +68,7 @@ The project simulates a real-time feedback environment by processing pre-recorde
 | --------------- | ------------------------------------------------------------------ |
 | `GET /score`    | Returns the overall eco-driving score after each trip              |
 | `GET /feedback` | Provides real-time feedback every 10 seconds based on driving data |
+| `GET /metrics`  | Streams essential driving metrics one row at a time, simulating real-time data flow|
 
 ---
 
@@ -126,18 +127,6 @@ This dataset enables the backend to calculate eco-driving scores and identify in
 ---
 
 ## 📈 Eco-Driving Score Calculation
-
-The eco-driving score is calculated based on several factors derived from the driving data:
-- **Speed Consistency**: Avoiding high-speed fluctuations to reduce fuel consumption.
-- **Smooth Braking**: Minimizing harsh braking events.
-- **Steady Acceleration**: Reducing rapid accelerations to improve fuel efficiency.
-
-Each of these factors contributes to an overall score, which the driver can view at the end of each trip.
-
----
-
-## 🌟 Example Use Case
-
 The eco-driving score is calculated based on a variety of driving metrics gathered throughout each trip. These metrics help assess driving behaviors that impact fuel efficiency and emissions. Here are the key columns used in determining the eco-driving score:
 1. **Speed**: Helps to check if the driver maintains an optimal speed. Consistent speeds within an efficient range contribute positively, while overspeeding has a negative impact.
 2. **Acceleration**: Indicates how smoothly the driver accelerates. Harsh accelerations consume more fuel, so smooth acceleration improves the eco-score.
