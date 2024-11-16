@@ -1,25 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body {
-  box-sizing: border-box;
-  background-color: #111;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
+  background-color: #191d2e;
 }
 .svg-container {
+
+  box-sizing: border-box;
+background-color: rgb(33, 219, 188);
+border:2px solid rgb(15, 179, 160);
+  width: fit-content;
+opacity: 90;
+  justify-content: center;
   position: relative;
+  font-family: "Poppins", sans-serif;
+  
+  
+  
 }
 #speed {
-  color: white;
+  color: rgb(247, 251, 246);
   font-size: 36px;
   line-height: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: absolute;
-  bottom: 25px;
+position: absolute;
+  bottom: 22%;
+  
   z-index: 1;
 }
 #meter-bg-bar {

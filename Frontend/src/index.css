@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(14, 16, 30);
+}
+.wallpaper{
+  background-image: url('VOLK-wall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 47%;
+  
+
+}
+h1 {
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(251, 255, 0);
+  font-size: 20px; /* Or any other contrasting color */
+}
+.pulserate{
+  animation: pulse 0.5s infinite;
+}
+/*speedometer.css*/
