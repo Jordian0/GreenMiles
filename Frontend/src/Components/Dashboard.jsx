@@ -24,7 +24,7 @@ export default function Dashboard() {
           clearInterval(intervalId); // Stop simulation
           setIsSimulated(false); // Transition to real-time updates
         }
-      }, 500);
+      }, 100);
     } else {
       // Second phase: Fetch real-time speed from the API
       intervalId = setInterval(() => {
