@@ -3,6 +3,8 @@
 
 An AI-powered application designed to provide real-time feedback and eco-driving scores to drivers, helping reduce fuel consumption and carbon emissions. This project includes a machine learning model to process driving data and generate feedback based on driving patterns.
 
+![dashboard](/Snapshot/dashboard.png)
+
 ## Table of Contents
 - [Eco-Driving Coach App with AI Feedback](#eco-driving-coach-app-with-ai-feedback)
   - [Table of Contents](#table-of-contents)
@@ -26,6 +28,8 @@ An AI-powered application designed to provide real-time feedback and eco-driving
 ## 📖 Project Overview
 
 The **Eco-Driving Coach App** empowers drivers to embrace eco-friendly driving habits, reducing fuel consumption and carbon emissions. By leveraging **real-time data** and **AI-driven insights**, the app provides **instant feedback** to help drivers improve their driving behaviors. With features like **gamification** and **real-time coaching**, this app makes sustainable driving an engaging experience, motivating drivers to adopt long-lasting eco-friendly habits. 
+
+![Project Flow](/Snapshot/Flow.png)
 
 ---
 
