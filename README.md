@@ -3,7 +3,10 @@
 
 An AI-powered application designed to provide real-time feedback and eco-driving scores to drivers, helping reduce fuel consumption and carbon emissions. This project includes a machine learning model to process driving data and generate feedback based on driving patterns.
 
-![dashboard](/Snapshot/dashboard.png)
+
+Live preview - https://green-miles.netlify.app/
+
+![Dashboard](/Snapshot/dashboard.png)
 
 ## Table of Contents
 - [Eco-Driving Coach App with AI Feedback](#eco-driving-coach-app-with-ai-feedback)
