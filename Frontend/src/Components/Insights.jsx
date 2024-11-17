@@ -20,7 +20,7 @@ export default function Insights() {
         setData(realTimeData); // Update component state with real-time data
       } catch (error) {
         console.error('Error fetching data:', error);
-        // Handle errors gracefully, e.g., display an error message to the user
+        
       }
     };
 
@@ -56,7 +56,7 @@ export default function Insights() {
     <div className="bg-gray-900 opacity-80 w-[350px] p-1 rounded-lg">
       <h2 className="text-white bg-black text-center font-mono mb-1">Vehicle Stats</h2>
       {Object.entries(data).map(([key, value]) => {
-        // Skip rendering keys 'GPS_Speed' and 'speed'
+        
         if (key.toLowerCase() === 'gps_speed' || key.toLowerCase() === 'speed') return null;
 
         return (
