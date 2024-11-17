@@ -29,7 +29,7 @@ An AI-powered application designed to provide real-time feedback and eco-driving
 
 The **Eco-Driving Coach App** empowers drivers to embrace eco-friendly driving habits, reducing fuel consumption and carbon emissions. By leveraging **real-time data** and **AI-driven insights**, the app provides **instant feedback** to help drivers improve their driving behaviors. With features like **gamification** and **real-time coaching**, this app makes sustainable driving an engaging experience, motivating drivers to adopt long-lasting eco-friendly habits. 
 
-![Project Flow](/Snapshot/Flow.png)
+![Project Flow](/Snapshot/Flow.jpg)
 
 ---
 
