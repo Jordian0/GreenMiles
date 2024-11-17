@@ -6,7 +6,7 @@ An AI-powered application designed to provide real-time feedback and eco-driving
 
 Live preview - https://green-miles.netlify.app/
 
-![Dashboard](/Snapshot/dashboard.png)
+![Dashboard](/Snapshot/Dashboard.png)
 
 ## Table of Contents
 - [Eco-Driving Coach App with AI Feedback](#eco-driving-coach-app-with-ai-feedback)
