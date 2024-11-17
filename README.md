@@ -64,8 +64,8 @@ The project simulates a real-time feedback environment by processing pre-recorde
 
 | Component           | Technology                      |
 | ------------------- | ------------------------------- |
-| **Frontend**        | React (JavaScript, CSS)         |
-| **Backend**         | Flask (Python)                  |
+| **Frontend**        | React, Tailwind CSS             |
+| **Backend**         | Flask                           |
 | **Data Simulation** | CSV file processed in real-time |
 
 ### 🛠️ API Endpoints
